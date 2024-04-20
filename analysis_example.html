@@ -427,19 +427,6 @@ document.write(`
 </div>
 </div>
 </details>
-<div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
-<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">3</span>
-<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="ne">----&gt; </span><span class="mi">3</span> <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
-
-<span class="ne">ModuleNotFoundError</span>: No module named &#39;matplotlib&#39;
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -597,10 +584,10 @@ memory usage: 69.7+ KB
 </div>
 </details>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;seaborn.axisgrid.FacetGrid at 0x17756d3af20&gt;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;seaborn.axisgrid.FacetGrid at 0x10bea0110&gt;
 </pre></div>
 </div>
-<img alt="_images/0fcecf49b3359cc1db6c914cf330ff68fa1aa2a998c538f012b424ad28036227.png" src="_images/0fcecf49b3359cc1db6c914cf330ff68fa1aa2a998c538f012b424ad28036227.png" />
+<img alt="_images/c61ad3bce1d041bc6694cda9da1c6a089b85f7a3541f037a6fa0a3a73f8f4141.png" src="_images/c61ad3bce1d041bc6694cda9da1c6a089b85f7a3541f037a6fa0a3a73f8f4141.png" />
 </div>
 </div>
 <p>Let’s explore passangers’ gender:</p>
@@ -618,10 +605,10 @@ memory usage: 69.7+ KB
 </div>
 </details>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;seaborn.axisgrid.FacetGrid at 0x17756eefa60&gt;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;seaborn.axisgrid.FacetGrid at 0x12fc87a90&gt;
 </pre></div>
 </div>
-<img alt="_images/ae82b24345c063b1fc87cd878e440b0d1a052096aa85d764fc475ca27f4e8fb4.png" src="_images/ae82b24345c063b1fc87cd878e440b0d1a052096aa85d764fc475ca27f4e8fb4.png" />
+<img alt="_images/4b7e91fb15b8ef6988ebed3abdee199577af4360558021e9be4700d53e406e9c.png" src="_images/4b7e91fb15b8ef6988ebed3abdee199577af4360558021e9be4700d53e406e9c.png" />
 </div>
 </div>
 <p>Figure summary: there were considerably more male passengers onboard.</p>
@@ -644,10 +631,11 @@ memory usage: 69.7+ KB
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>male      537
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Individuals
+male      537
 female    271
 child      83
-Name: Individuals, dtype: int64
+Name: count, dtype: int64
 </pre></div>
 </div>
 </div>
@@ -666,10 +654,10 @@ Name: Individuals, dtype: int64
 </div>
 </details>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;seaborn.axisgrid.FacetGrid at 0x17757664160&gt;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;seaborn.axisgrid.FacetGrid at 0x12fc96090&gt;
 </pre></div>
 </div>
-<img alt="_images/2cd84164a449c9df7aa8dad9199155ec57638e8499a7f6f18756ce1bc4306930.png" src="_images/2cd84164a449c9df7aa8dad9199155ec57638e8499a7f6f18756ce1bc4306930.png" />
+<img alt="_images/8c69a50f1d0d814b0f14c4c981c07760cd94bd56330fef76214c53f9fef1c12e.png" src="_images/8c69a50f1d0d814b0f14c4c981c07760cd94bd56330fef76214c53f9fef1c12e.png" />
 </div>
 </div>
 <p>Figure summary: There are way more male passengers than woman or childeren in the 3rd class than in any other class.</p>
@@ -691,10 +679,10 @@ Name: Individuals, dtype: int64
 </div>
 </details>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;seaborn.axisgrid.FacetGrid at 0x177577a73a0&gt;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;seaborn.axisgrid.FacetGrid at 0x130064190&gt;
 </pre></div>
 </div>
-<img alt="_images/542f3bd42b94248c7495489cde418a7d221c5c02a33c801c6d993903d237fac2.png" src="_images/542f3bd42b94248c7495489cde418a7d221c5c02a33c801c6d993903d237fac2.png" />
+<img alt="_images/1aa03071ce6ff0199c7a7d047aba5b0709b07fcd046b5d2ee3c7b1a8fb1a1ac0.png" src="_images/1aa03071ce6ff0199c7a7d047aba5b0709b07fcd046b5d2ee3c7b1a8fb1a1ac0.png" />
 </div>
 </div>
 <p>Figure summary: first class passengers were older that passagenrs of other class</p>
@@ -720,10 +708,10 @@ Name: Individuals, dtype: int64
 </div>
 </details>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;seaborn.axisgrid.FacetGrid at 0x177577a7640&gt;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;seaborn.axisgrid.FacetGrid at 0x12ff761d0&gt;
 </pre></div>
 </div>
-<img alt="_images/919132cad90f5a8661c564f4fbef6c2d128e1e54b5c6b94d6cd625b0cd429ab6.png" src="_images/919132cad90f5a8661c564f4fbef6c2d128e1e54b5c6b94d6cd625b0cd429ab6.png" />
+<img alt="_images/2018fbaf1a9ee29785746e8cdff9c21005785c3ca4eb46a9f5daeab2be68b262.png" src="_images/2018fbaf1a9ee29785746e8cdff9c21005785c3ca4eb46a9f5daeab2be68b262.png" />
 </div>
 </div>
 <p>Figure summary: Most of the 3rd class passengers embarked from Southampton</p>
@@ -758,10 +746,10 @@ Name: Individuals, dtype: int64
 </div>
 </details>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;seaborn.axisgrid.FacetGrid at 0x177579d9930&gt;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;seaborn.axisgrid.FacetGrid at 0x1102dfc90&gt;
 </pre></div>
 </div>
-<img alt="_images/6b8c097fa04e6dde646add4acb0a8cd1ff5d35734234ab4e65c221becada3feb.png" src="_images/6b8c097fa04e6dde646add4acb0a8cd1ff5d35734234ab4e65c221becada3feb.png" />
+<img alt="_images/81276e6848dfec45203504193e8c7b4afc26f437fbadf0fbe0af9bf68f09e49e.png" src="_images/81276e6848dfec45203504193e8c7b4afc26f437fbadf0fbe0af9bf68f09e49e.png" />
 </div>
 </div>
 <p>Figure summary: The majority of people on the ship travled with someone.</p>
